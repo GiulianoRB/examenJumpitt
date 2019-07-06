@@ -1,33 +1,182 @@
-.App {
-  text-align: center;
+
+* {margin: 0px; padding: 0px}
+
+html,
+body,
+.container-fluid {
+  height: 100%;
+  margin: 0px; 
+  padding: 0px;
+  font-family: 'Exo 2', 'medium';
+}
+.main{
+  background-color: white;  
+}
+.lista{
+  padding: 0%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.buscar{
+  color:#C5C5C5;
+  font-size: 13.37px;
+  padding-left: 28px;
+  padding-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#section{
+  height: 1100px;
+}
+
+.card{
+  padding: 5px;
+  margin: 8px;
+}
+
+.barraNavegacion{
+  background-color: white;
+  padding-right: 0px;
+}
+
+.wrapper{ 
+  height:100%;
+  min-height:100%;
+  background-color:white;
+  padding:10px;
+  color:black;
+  padding: 0px;
+}
+
+.lista > li{
+  list-style-type: none;
+  font-size: 15.43px;  
+  margin-left: 0px;
+  padding: 12px;
+  border-bottom: 1px solid #E3E3E3;
+
+}
+.lista > li:hover{
+  background: #FBFBFB;
+  border-left: 4px solid #007BFF;
+  
+}
+
+.lista > li > a{
+  text-decoration: none;
+  color: #3D5170;
+  font-size: 15.43px;
+}
+
+.lista > li > a > i{
+  color: #CACEDB;
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+.lista > li > a > i:hover{
+  color: #007BFF;
+}
+
+.lista > li > a:hover{
+  color: #007BFF;
+}
+
+.titulo{
+  font-family: 'Poppins', 'medium';
+  font-size: 14.46px;
+  color: #3D5170;
+  padding: 20px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.main{
+  border-bottom: 1px solid #E3E3E3;
+  height: 61px;
+  background-color: white;
+}
+.bell{
+  border-left: 1px solid #C5C5C5;
+  border-right: 1px solid #C5C5C5; 
+  color:#C5C5C5;
+  padding: 10px;
+  margin-top: 5px;
+}
+.footer {  
+  height: 70px;  
+  width:100%; 
+  position:absolute; 
+  bottom:0; 
+  left:0; 
+  background-color: white;
+  border-top: 1px solid #EDEDED; 
+}
+.footer > ul > li > a{
+  color: #007BFF;
+}
+.copyright{
+  color: #818EA3;
+}
+.txtDashboard{
+  font-size: 10px;
+  color: #757980;  
+}
+.txtInicio{
+  color: #3D5170;
+  font-size: 29.83px;
+  
+}
+.imgPeque{
+  width: 20px; 
+  height: 20px;  
+}
+
+#sidebar{
+  border-right: 1px solid #EDEDED; 
+}
+
+.tituloDasboard{
+  padding-left: 28px;
+}
+
+.interior{
+  background: #F1F2F3;
+}
+
+.imgMid{
+  
+  width: 40px; 
+  height: 40px;
+}
+
+.nombreUsuario{
+  font-size: 15.43px;
+  color: #5A6169;
+}
+.notificaciones{
+  margin-bottom: 10px;
   color: white;
+  font-size: 10px;
+}
+.nombreRef{
+  color: #3D5170;
+  font-size: 12.34px;
+
+}
+.valorRef{
+  color: #818EA3;
+  font-size: 12.34px;
+}
+.tablero{
+  font-size: 13.37px;
 }
 
-.App-link {
-  color: #61dafb;
+.botonesTablero > label > button{
+  border: 1 px solid #868E96;
+  font-size: 13.37px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botonesTablero > label {
+  font-size: 13.37px;
+}
+.mensaje{
+  font-size: 13.37px;
 }
