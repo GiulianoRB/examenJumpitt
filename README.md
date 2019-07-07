@@ -8,8 +8,8 @@ Este sistema contempla un completo dashboard con informaión obtenida desde una 
 
 DETALLES TECNICOS DE LA SOLUCION
 ================================
-
-para esta solucion se obtuvieron los datos de la api http://www.mocky.io/v2/5ba409112f00005b00968a9d
+Esta solucion hubiese sido muy interesante realizarla con arquitectura MVC o MVVM, pero como no existe un backend se utilizaron basicamente conceptos basados en aplicaciones SERVERLESS.
+se obtuvieron los datos de la api http://www.mocky.io/v2/5ba409112f00005b00968a9d
 los datos fueron consumidos con FETCH y situados en cada uno de los campos indicados en las instrucciones de la solución.
 ================================
 
